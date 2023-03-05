@@ -41,8 +41,8 @@ h1{
 .circle {
   background-color: rgb(23, 174, 174);
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
