@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: "Tourney";
+  background-image:url(race.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: top left;
+  background-attachment: fixed; 
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+  max-width: 1200px;
+ 
+}
+
+h1{
+  margin-bottom: 3rem;
+  background-image: linear-gradient(to right, rgb(221, 130, 12), rgb(213, 69, 69)
+  );
+}
+
+
+.circles {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.circle {
+  background-color: rgb(23, 174, 174);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  pointer-events: none;
+}
+
+.circle.active {
+  background-color: rgb(221, 130, 12);
+  background-image: url('mylogo.png');
+  background-size: cover;
+  color: red;
+  font-size:x-large;
+}
+
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  background-image: linear-gradient(to right, rgb(221, 130, 12), rgb(213, 69, 69)
+  );
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 5rem 1rem;
+  cursor: pointer;
+ 
+}
+
+.overlay {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 2rem;
+  width: 30%;
+  height: 30%;
+  border-radius: 10px;
+  position: relative;
+  color: black;
+}
+
+
+.modal button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  margin: 0;
+}
+
+.modal .score {
+  font-size: 1.5rem;
+}
+
+.hidden{
+  display: none;
+}
+
+

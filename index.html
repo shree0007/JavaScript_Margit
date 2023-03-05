@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tourney:wght@700&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Speed-game</title>
+  </head>
+  <body>
+  
+    <div >
+      <div>
+        <h1>SPEED GAME</h1>
+        <p>Score: <span class="score">0</span></p>
+      </div>
+      <div class="circles">
+        <div class="circle"><p>0</p></div>
+        <div class="circle"><p>1</p></div>
+        <div class="circle"><p>2</p></div>
+        <div class="circle"><p>3</p></div>
+      </div>
+      <div class="btn">
+        <button id="start" >Start game</button>
+        <button id="end" class="hidden">End game</button>
+      </div>
+      <div class="overlay">
+        <div class="modal">
+          <p>Ups, game over!</p><br>
+          <p>Your score was <span class="scoreEnd">0</span></p>
+          <button id="close">close</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
