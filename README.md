@@ -47,3 +47,8 @@ Live page [here] https://public.bc.fi/s2300095/shree/speed-game/
 ## Authors and acknowledgment
 
 -Shree
+
+## SPEED GAME
+- School project
+
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=shree0007_speed-game)](https://sonarcloud.io/summary/new_code?id=shree0007_speed-game)
